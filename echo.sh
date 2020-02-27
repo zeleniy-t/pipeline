@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "this is test file, printing this line"
-echo "Today is..." somecode.txt
+echo "this is test file, taking date and time"
 
-date >> somecode.txt
+date +%Y%m%0d > date.txt
+date +%H%M > time.txt
